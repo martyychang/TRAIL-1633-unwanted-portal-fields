@@ -1,0 +1,17 @@
+{
+    "orgName": "Salesforce MVP",
+    "edition": "Enterprise",
+    "features": [
+        "ContactsToMultipleAccounts",
+        "StateAndCountryPicklist"
+    ],
+    "orgPreferences" : {
+        "enabled": [
+            "AnalyticsSharingEnable",
+            "ChatterEnabled",
+            "NotesReservedPref01",
+            "S1DesktopEnabled",
+            "PathAssistantsEnabled"
+        ]
+    }
+}

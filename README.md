@@ -12,8 +12,9 @@ two fields do not exist in any of our sandbox orgs (or in **production**).
 1. Clone this repo
 2. Create a new scratch org using **config/project-scratch-def.json**
 3. Push source to the new scratch org using `sfdx force:source:push`
-4. Open the org with `sfdx force:source:open`
-5. Enable field history tracking on the Account and Contact objects
+4. Open the org with `sfdx force:org:open`
+5. Enable field history tracking on the **Account Name** field (`Account.Name`)
+   and **Contact Email** (`Contact.Email`) field
 6. Pull source from the scratch org using `sfdx force:source:pull`
 
 Expected Outcome | Actual Outcome

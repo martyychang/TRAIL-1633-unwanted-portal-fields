@@ -20,7 +20,7 @@ two fields do not exist in any of our sandbox orgs (or in **production**).
 Expected Outcome | Actual Outcome
 ----- | -----
 `Account.IsCustomerPortal` does not show up | Metadata for this field _does_ appear
-`Customer.CanAllowPortalSelfReg` does not show up | Metadata for this field _does_ appear
+`Contact.CanAllowPortalSelfReg` does not show up | Metadata for this field _does_ appear
 
 
 ## Resources
